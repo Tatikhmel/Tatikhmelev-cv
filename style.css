@@ -39,16 +39,23 @@ min-height: 100vh;
     text-align: center;
 }
 
-span{
+.job{
     color: #ffffff;
     font-size: 12px;
     text-transform: uppercase;
 }
+
+.soft_skills {
+    color: #0157f7;
+    font-weight: bold;
+}
+
 .contacts {
     margin-top: 10px;
     font-size: 13px;
     font-weight: bolder;
     line-height: 30px;
+    color: #ffffff;
 }
 .profileDescription {
     position: relative;
@@ -59,7 +66,7 @@ span{
     border-bottom: 1px solid rgba(255, 255, 255, 0.3)
 }
 
-img{
+.profile_photo{
     width: 200px;
     border-radius: 50%;
 }
@@ -68,4 +75,21 @@ img{
     position: relative;
     background-color: #ffffff;
     padding: 40px;
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #0157f7;
+    font-weight: bolder;
+}
+
+h3 {
+font-size: 15px;
+font-weight: normal;
+}
+
+li {
+    font-size: 15px;
+    font-weight: normal;
 }
