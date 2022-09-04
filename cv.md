@@ -45,3 +45,15 @@ function isIsogram(str){
   return true;
   }
  ```
+## Courses:
+
+* HTML and CSS Tutorials on ru.code-basics.com;
+* HTML and CSS Tutorials on FreeCodeCamp;
+* JS Tutorial on ru.code-basics.com;
+* The complete javascript course on udemy.com;
+* RS Schools Course «JavaScript/Front-end» (in progress);
+
+## Languages:
+* Russian - native;
+* English - advanced;
+* Chinese - HSK5. 
