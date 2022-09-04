@@ -1,1 +1,52 @@
-style.scc
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;;
+}
+body {
+background-color: #f5f5f5;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.container {
+    padding: 0 !important;
+    margin: 50px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+}
+
+.container, .left_side {
+    position: relative;
+    background-color: #1a418ac4;
+    padding: 40px;
+}
+
+.profileDescription {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.container, .right_side {
+    position: relative;
+    background-color: #ffffff;
+    padding: 40px;
+}
